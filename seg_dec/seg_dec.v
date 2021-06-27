@@ -9,7 +9,7 @@
 // -----------------------------------------------------------------------------
 `timescale 1ns/10ps
 
-module 7seg_dec(
+module seg_dec(
 	input[3:0]		num,
 	output[6:0]		a_g
 	);
@@ -33,10 +33,10 @@ end
 endmodule
 
 // ------------testbench-------
-module 7seg_dec_tb;
+module seg_dec_tb;
 reg[3:0] 		num;
 wire[6:0]		a_g;
-7seg_dec inst_7seg_dec (.num(num), .a_g(a_g));
+seg_dec inst_seg_dec (.num(num), .a_g(a_g));
 
 initial begin
 	num <= 0;
