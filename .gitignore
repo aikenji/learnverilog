@@ -2,4 +2,5 @@
 .DS_Store
 
 #st3
-learncmake.sublime-workspace
+learnverilog.sublime-workspace
+learnverilog.sublime-project
