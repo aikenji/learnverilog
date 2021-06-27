@@ -1,8 +1,3 @@
-// You can make a your own header file and set its path to settings.
-// (Preferences > Package Settings > Verilog Gadget > Settings - User)
-//
-//		"header": "Packages/Verilog Gadget/template/verilog_header.v"
-//
 // -----------------------------------------------------------------------------
 // Copyright (c) 2014-2021 All rights reserved
 // -----------------------------------------------------------------------------
